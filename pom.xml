@@ -17,6 +17,13 @@
 	<dependencies>
 
 		<dependency>
+ 	 		<groupId>io.appium</groupId>
+			<artifactId>java-client</artifactId>
+  			<version>10.1.1</version> <!-- use latest -->
+  			<scope>test</scope>
+		</dependency>
+
+		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.6.1</version>
