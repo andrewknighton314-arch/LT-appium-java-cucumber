@@ -31,9 +31,9 @@ public class TestRunner extends AbstractTestNGCucumberTests {
     @Parameters({"deviceName", "platformVersion", "platformName"})
     public void setUpClass(String deviceName, String platformVersion, String platformName) throws Exception {
 
-        String username = System.getenv("LT_USERNAME") == null ? "YOUR_LT_USERNAME" : System.getenv("LT_USERNAME");      //Enter your LambdaTest username at the place of YOUR_LT_USERNAME
-        String accesskey = System.getenv("LT_ACCESS_KEY") == null ? "YOUR_LT_ACCESSKEY" : System.getenv("LT_ACCESS_KEY");     //Enter your LambdaTest accessKey at the place of YOUR_LT_ACCESSKEY
-        String app_id = System.getenv("LT_APP_ID") == null ? "lt://proverbial-android" : System.getenv("LT_APP_ID");      //Enter your LambdaTest App ID at the place of lt://proverbial-android
+        String username = System.getenv("LT_USERNAME") == null ? "andrewknighton314" : System.getenv("LT_USERNAME");      //Enter your LambdaTest username at the place of YOUR_LT_USERNAME
+        String accesskey = System.getenv("LT_ACCESS_KEY") == null ? "LT_3XVWWLPh89icS0B0j0yPGLkroxkHwGsdgEq1du1kfrPiJ34" : System.getenv("LT_ACCESS_KEY");     //Enter your LambdaTest accessKey at the place of YOUR_LT_ACCESSKEY
+        String app_id = System.getenv("LT_APP_ID") == null ? "lt://APP10160371691777329229464960" : System.getenv("LT_APP_ID");      //Enter your LambdaTest App ID at the place of lt://proverbial-android
         String grid_url = System.getenv("LT_GRID_URL") == null ? "mobile-hub.lambdatest.com" : System.getenv("LT_GRID_URL");
 
         DesiredCapabilities capability = new DesiredCapabilities();
