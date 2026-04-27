@@ -44,7 +44,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
         capability.setCapability("build", "LT-appium-java-cucumber");
         capability.setCapability("name", "Android Test");
         capability.setCapability("isRealMobile", false);
-        capability.setCapability("app", APP10160371691777329229464960);     //Enter the app url here
+        capability.setCapability("app", "lt://APP10160371691777329229464960");     //Enter the app url here
         capability.setCapability("devicelog", true);
         capability.setCapability("autoGrantPermissions", true);
         capability.setCapability("network", false);
